@@ -51,7 +51,7 @@ while(flag){
         flag = false;
     }
 }*/
-// ДОМАШНЕЕ ЗАДАНИЕ ВВЕДЕНИЕ В JAVASCRIPT
+/*// ДОМАШНЕЕ ЗАДАНИЕ ВВЕДЕНИЕ В JAVASCRIPT
 const userName = "Yarik";
 let userAge = 16;
 let isStudent = false;
@@ -81,4 +81,89 @@ console.log(2 / "sad"); // NaN
 let width = 100;
 let height = 200;
 let area = width * height;
-console.log(`Площадь прямоугольника равна ${area}px`);
+console.log(`Площадь прямоугольника равна ${area}px`);*/
+/*function showText(name, age, status){
+    console.log(`Имя: ${name}\nВозраст: ${age}\nСтатус: ${status}`);
+}
+showText("Ярик", 16, "pro");
+let showText1 = (name, age, status) => console.log(`Имя: ${name}\nВозраст: ${age}\nСтатус: ${status}`);
+showText("Ярик", 16, "pro");
+const showText2 = (number) => {
+    let a = 2;
+
+}*/
+/*function calculator(a, b, operation){
+    if(operation == "+"){
+        alert(a + b);
+    }else if(operation == "-"){
+        alert(a - b);
+    }else if(operation == "*"){
+        alert(a * b);
+    }else if(operation == "/"){
+        alert(a / b);
+    }else{
+        alert("Нет такой операции!");
+    }
+}
+let a = Number(prompt("Введите первое число"));
+let b = Number(prompt("Введите второе число"));
+let operation = prompt("Какая операция?(+ - * /)");
+calculator(a, b, operation);
+const calculator2 = (a, b, operation) => {
+    if(operation == "+"){
+        alert(a + b);
+    }else if(operation == "-"){
+        alert(a - b);
+    }else if(operation == "*"){
+        alert(a * b);
+    }else if(operation == "/"){
+        alert(a / b);
+    }else{
+        alert("Нет такой операции!");
+    }
+}*/
+/*let a = Number(prompt("Введите градусы"));
+let replacement = prompt("Перевести в Фаренгейты или цельсия(1, 2)");
+const celsiusAndFahrenheit = (a, replacement) => console.log(replacement === "1" ? (a *(9/5) + 32) : ((a - 32) * (5/9)));
+celsiusAndFahrenheit(a, replacement);*/
+//ЗАДАЧА 1                          ЗАДАЧА 1                                ЗАДАЧА 1                               ЗАДАЧА 1
+/*let age = prompt("Введите ваш возраст");
+if(age < "18"){
+    alert("Вы еще слишком молоды!")
+}else if(age >= "18" && age < "65"){
+    alert("Добро пожаловать!");
+}else{
+    alert("Пожалуйста, будьте осторожны");
+}*/
+//Задача 2                             Задача 2                              Задача 2                                 Задача 2
+/*let n = prompt("Задайте число для суммы");
+let summ = 0
+for(let i = 0; i <= n; i++){
+    summ += i;
+}
+console.log(summ);*/
+//Задача 3                              Задача 3                               Задача3
+/*function areaСircle(radius){
+    let pi = Math.PI;
+    console.log(pi*(radius**2));
+}
+let radius = Number(prompt("Введите радиус окружности"));
+areaСircle(radius);*/
+//Задача 4                              Задача 4                               Задача4
+/*let n = Number(prompt("Введите число N"));
+nextPrime:
+for (let i = 2; i <= n; i++) { 
+    for (let j = 2; j < i; j++) { 
+      if (i % j == 0){
+        continue nextPrime;
+      } 
+    }
+  
+    console.log(i); 
+}*/
+//Задача 5                              Задача 5                               Задача5
+/*for(let i = 2; i <= 10; i++){
+    for(let x = 2; x <= 10; x++){
+        console.log(`${i} * ${x} = ${i * x}`);
+    }
+}*/
