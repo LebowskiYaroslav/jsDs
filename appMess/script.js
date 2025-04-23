@@ -167,3 +167,69 @@ for (let i = 2; i <= n; i++) {
         console.log(`${i} * ${x} = ${i * x}`);
     }
 }*/
+/*let library = {
+    name: "Вишневый сад",
+    address: "Москва",
+    books: [{title:"Евгений Онегин", author:"А.С.Пушкин", year:1823}, 
+        {title:"Сказка о царе Салтане", author:"А.С.Пушкин", year:1831}, 
+        {title:"Капитанская дочка", author:"А.С.Пушкин", year:1836}]
+}
+console.log(Object.keys(library));
+console.log(Object.values(library));
+library.books.push({title:"Дубровский", author:"А.С.Пушкин", year:1833});
+console.log(library.books);
+//ПРАКТИКА Б
+let student = {
+    name:"Иван",
+    age:18,
+    grades: [2,2,3,5,5,5],
+    address:{
+        street:"Космонавтики",
+        city:"Москва",
+        postalCode:2223423
+    }
+}
+console.log(Object.entries(student));
+function getAverageGrade(student){
+    let summ = 0;
+    let summplus = student.grades.forEach((element) => summ += element);
+    console.log(student.grades.map(num => summ / (student.grades.length + 1)));
+}
+getAverageGrade(student);*/
+//  ДОМАШНЕЕ ЗАДАНИЕ
+// Номер 1111
+/*let arr = [1, 2, 3, 4, 5];
+arr.push(6);
+arr.shift();
+arr.unshift(0);
+arr.pop();
+console.log(arr);*/
+// Номер 2222
+/*let user = {
+    name: "Ярослав",
+    age: 16,
+    isStudent:false
+}
+function showUser(user){
+    console.log(`Имя: ${user.name}, Возраст: ${user.age}, Студент: ${user.isStudent}`);
+}
+showUser(user);*/
+// Номер 3333
+/*let numbers = [2, 5, 3, 6];
+let modernization = (numbers) => console.log(numbers.map(num => num * 2));
+modernization(numbers);*/
+// Номер 4444
+/*let numbers = [2, 5, 3, 6, 8, 9];
+let modernization = (numbers) => console.log(numbers.filter(num => num > 5));
+modernization(numbers);*/
+// Номер 5555
+/*let numbers = [2, 5, 3, 6];
+let modernization = (numbers) => console.log(numbers.reduce((prev, current) => prev += current));
+modernization(numbers);*/
+// Номер 6666
+let shop = {
+    name: "Пятерочка",
+    products: [{productName:"Молоко", price: 100}, {productName:"Хлеб", price: 50}]
+}
+let totalCost = (shop) =>  console.log(shop.products.reduce((total, product) => total + product.price, 0));
+totalCost(shop);
